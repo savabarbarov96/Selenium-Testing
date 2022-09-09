@@ -27,5 +27,6 @@ Method 2: Setting ChromeDriver Path in Windows Environment Variables
  11.1 We can modify the package.json to
    "scripts": {
     "test": "mocha --no-timeouts *js"
-     }
+     }  
+   and then proceed to execute the tests using the "npm test" in the terminal
     
