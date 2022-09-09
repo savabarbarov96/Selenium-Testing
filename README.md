@@ -23,3 +23,4 @@ Method 2: Setting ChromeDriver Path in Windows Environment Variables
 8.	Npm install chromedriver and npm install geckodriver
 9.	Install Chai /for assertions/
 10.	Install Mocha for test reporting
+11. We can run the code with npx mocha --no-timeouts /Tests/*js (the path of the tests)
