@@ -37,3 +37,14 @@ Method 2: Setting ChromeDriver Path in Windows Environment Variables
     
 
 12. We can add --parallel to the package.json - npx mocha --no-timeouts --parallel *.js to run tests simunteniously.
+
+
+13. Generating test visualization reports with mochawesome ->
+ 1.npm install mochawesome
+ 2. update the package.json to include the following: 
+ 
+ "scripts": {
+    "test": "mocha --no-timeouts --parallel --reporter mochawesome --require mochawesome/register *.js"
+  },
+
+Run using npm test
