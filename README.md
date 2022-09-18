@@ -30,6 +30,7 @@ Method 2: Setting ChromeDriver Path in Windows Environment Variables
 
 11. We can run the code with npx mocha --no-timeouts /Tests/*.js (the path of the tests)
  11.1 We can modify the package.json to
+ 
    "scripts": {
     "test": "mocha --no-timeouts *js"
      }  
